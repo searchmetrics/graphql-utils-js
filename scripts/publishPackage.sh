@@ -38,11 +38,7 @@ if [ "$ERR" == "0" ]; then
     exit 1;
 fi
 
-npm run build
-npm run updateSchema
-
 git add -A
-git add -f lib
 
 read -p "Are you ready to publish? [Y/n] " -r
 echo
