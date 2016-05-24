@@ -1,6 +1,6 @@
 {
   "name": "graphql-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A set of utilities for apps building with graphql-js",
   "repository": {
     "type": "git",
@@ -30,13 +30,13 @@
     "babel-runtime": "5.x.x",
     "eslint": "1.7.x",
     "babel-eslint": "4.x.x",
-    "graphql": "0.6.x",
+    "graphql": "0.5.x",
     "eslint-plugin-babel": "2.x.x"
   },
   "dependencies": {
     "lodash": "3.x.x"
   },
   "peerDependencies": {
-    "graphql": "0.6.x"
+    "graphql": "0.5.x"
   }
 }
