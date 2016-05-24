@@ -4,11 +4,14 @@
   "description": "A set of utilities for apps building with graphql-js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kadirahq/graphql-utils-js.git"
+    "url": "https://github.com/searchmetrics/graphql-utils-js.git"
   },
   "author": "Arunoda Susiripala <arunoda@kadira.io> (http://github.com/arunoda)",
   "license": "MIT",
   "main": "./build",
+  "publishConfig": {
+    "registry": "http://172.23.254.203/content/repositories/npm-internal/"
+  },
   "options": {
     "mocha": "--require scripts/mocha-bootload src/**/__tests__/**/*.js"
   },
@@ -32,6 +35,6 @@
     "lodash": "3.x.x"
   },
   "peerDependencies": {
-    "graphql": "0.4.x"
+    "graphql": "0.5.x"
   }
 }
