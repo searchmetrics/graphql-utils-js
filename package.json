@@ -29,12 +29,13 @@
     "babel-runtime": "5.x.x",
     "eslint": "1.7.x",
     "babel-eslint": "4.x.x",
+    "graphql": "0.6.x",
     "eslint-plugin-babel": "2.x.x"
   },
   "dependencies": {
     "lodash": "3.x.x"
   },
   "peerDependencies": {
-    "graphql": "0.5.x"
+    "graphql": "0.6.x"
   }
 }

@@ -147,7 +147,7 @@ function getInfo(query) {
       fields: () => ({
         recentPost: {
           type: Post,
-          resolve(root, args, info) {
+          resolve(root, args, __, info) {
             resolve(info);
             return {};
           }
