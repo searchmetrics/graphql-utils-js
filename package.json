@@ -17,6 +17,7 @@
   },
   "scripts": {
     "prepublish": "./scripts/prepublish.sh",
+    "publish-package": "./scripts/publishPackage.sh",
     "lint": "./node_modules/.bin/eslint ./src",
     "lintfix": "./node_modules/.bin/eslint ./src --fix",
     "testonly": "./node_modules/.bin/mocha $npm_package_options_mocha",
