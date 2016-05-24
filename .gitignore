@@ -5,6 +5,6 @@
 .DS_Store
 .idea
 npm-debug.log
-
+.npmrc
 node_modules
 build
